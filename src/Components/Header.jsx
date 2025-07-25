@@ -43,7 +43,7 @@ function Header() {
             <li><a href="#features">Why Choose Us?</a></li>
             <li><a href="#contact">Contact Us</a></li>
             <div className="cta-buttons">
-              <a href="https://wa.me/917447721586?text=Hi%20I'm%20interested%20in%20your%20courses!" 
+              <a href="https://wa.me/919242912480?text=Hi%20I'm%20interested%20in%20your%20courses!" 
               target="_blank" className="btn btn-primary">Book Free Trial</a>
               
               {/* 9242912480 */}
