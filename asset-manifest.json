@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Abacus_V1/static/css/main.5f247b93.css",
-    "main.js": "/Abacus_V1/static/js/main.b4a7a274.js",
+    "main.js": "/Abacus_V1/static/js/main.5d69cf13.js",
     "static/js/453.2e6d3f39.chunk.js": "/Abacus_V1/static/js/453.2e6d3f39.chunk.js",
     "static/media/first.png": "/Abacus_V1/static/media/first.b48a41900fb3f524104a.png",
     "static/media/pd.jpg": "/Abacus_V1/static/media/pd.03d1ece4e364794a2b46.jpg",
@@ -14,11 +14,11 @@
     "static/media/pd1.webp": "/Abacus_V1/static/media/pd1.1dcdf5d483e22a2cee54.webp",
     "index.html": "/Abacus_V1/index.html",
     "main.5f247b93.css.map": "/Abacus_V1/static/css/main.5f247b93.css.map",
-    "main.b4a7a274.js.map": "/Abacus_V1/static/js/main.b4a7a274.js.map",
+    "main.5d69cf13.js.map": "/Abacus_V1/static/js/main.5d69cf13.js.map",
     "453.2e6d3f39.chunk.js.map": "/Abacus_V1/static/js/453.2e6d3f39.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5f247b93.css",
-    "static/js/main.b4a7a274.js"
+    "static/js/main.5d69cf13.js"
   ]
 }
