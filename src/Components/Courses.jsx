@@ -6,36 +6,176 @@ function Courses() {
     useAnimated('.course-card');
 
   const courses = [
-    {
-      icon: '🧮',
-      title: 'Abacus Mental Arithmetic',
-      desc: 'Master the ancient art of abacus calculation and develop lightning-fast mental math skills.',
-      features: ['8 comprehensive levels', 'Live online classes', 'Individual attention', 'Practice worksheets', 'Progress tracking'],
+    // {
+    //   icon: '🧮',
+    //   title: 'Abacus Mental Arithmetic',
+    //   desc: 'Master the ancient art of abacus calculation and develop lightning-fast mental math skills.',
+    //   features: ['8 comprehensive levels', 'Live online classes', 'Individual attention', 'Practice worksheets', 'Progress tracking'],
+    // },
+    // {
+    //   icon: '🧠',
+    //   title: 'Vedic Mathematics',
+    //   desc: 'Learn ancient Indian mathematical techniques that make complex calculations simple and enjoyable.',
+    //   features: ['16 powerful sutras', 'Speed calculation techniques', 'Interactive online sessions', 'Real-world applications', 'Exam preparation support'],
+    // },
+    // {
+    //   icon: '📖',
+    //   title: 'Bhagavad Gita Life Lessons',
+    //   desc: 'Timeless wisdom from the Bhagavad Gita presented in an engaging, child-friendly format.',
+    //   features: ['Age-appropriate content', 'Moral value education', 'Character development', 'Interactive storytelling', 'Life skill enhancement'],
+    // },
+    // {
+    //   icon: '🧘',
+    //   title: 'Yoga & Meditation',
+    //   desc: 'Physical and mental wellness through age-appropriate yoga practices and meditation techniques.',
+    //   features: ['Kid-friendly yoga poses', 'Breathing exercises', 'Mindfulness techniques', 'Stress management', 'Physical flexibility'],
+    // },
+    // {
+    //   icon: '🎯',
+    //   title: 'I-Sense Development',
+    //   desc: 'Innovative sensory training program to enhance cognitive abilities and concentration power.',
+    //   features: ['Sensory enhancement', 'Concentration improvement', 'Memory development', 'Cognitive skill building', 'Brain development activities'],
+    // }
+
+
+     {
+      icon: '📖',
+      title: 'Lessons of Bhagavad Gita',
+      desc: 'Timeless wisdom from the Bhagavad Gita presented in an engaging, child-friendly format for moral and character development.',
+      features: [
+        'Age-appropriate spiritual content',
+        'Moral value education and ethics',
+        'Character development programs', 
+        'Interactive storytelling methods',
+        'Life skill enhancement',
+        'Cultural heritage preservation',
+        'Wisdom-based learning approach',
+        'Holistic personality development'
+      ],
     },
     {
       icon: '🧠',
       title: 'Vedic Mathematics',
-      desc: 'Learn ancient Indian mathematical techniques that make complex calculations simple and enjoyable.',
-      features: ['16 powerful sutras', 'Speed calculation techniques', 'Interactive online sessions', 'Real-world applications', 'Exam preparation support'],
+      desc: 'Ancient Indian mathematical techniques with personality development for fast arithmetic and competitive exam preparation.',
+      features: [
+        'Fast Arithmetic Techniques in Addition, Subtraction, Multiplication and Division',
+        'Improves Speed and Accuracy in Calculation',
+        'Improves Memory Power',
+        'Improves Analytical and Logical Thinking',
+        'Develops Decision Making Capacity',
+        'Ice Breaker and Maths Techniques',
+        'Stress, Fear and Anger Detox',
+        '6 levels over 8 months (6th to 10th Grade)'
+      ],
     },
     {
-      icon: '📖',
-      title: 'Bhagavad Gita Life Lessons',
-      desc: 'Timeless wisdom from the Bhagavad Gita presented in an engaging, child-friendly format.',
-      features: ['Age-appropriate content', 'Moral value education', 'Character development', 'Interactive storytelling', 'Life skill enhancement'],
+      icon: '🧮',
+      title: 'Abacus',
+      desc: 'Century-old tool for whole brain and cognitive skills development to improve mental calculations and mathematical abilities.',
+      features: [
+        'Improves Listening and Observation skills',
+        'Improves Concentration and Memory',
+        'Improves Reading and Learning Skills',
+        'Enhances Visualization and Imagination',
+        'Amplifies Speed and Accuracy in Calculations',
+        'Boosts Creativity and Self-Confidence',
+        'Reduces Stress and develops Emotional Balance',
+        'Jr.Abacus (UKG to 1st) & Regular Abacus (2nd to 5th Class)'
+      ],
     },
     {
       icon: '🧘',
       title: 'Yoga & Meditation',
-      desc: 'Physical and mental wellness through age-appropriate yoga practices and meditation techniques.',
-      features: ['Kid-friendly yoga poses', 'Breathing exercises', 'Mindfulness techniques', 'Stress management', 'Physical flexibility'],
+      desc: 'Physical and mental wellness through traditional yoga practices, meditation techniques, and holistic healing therapies.',
+      features: [
+        'Traditional Yoga poses and Asanas',
+        'Breathing exercises and Pranayama',
+        'Meditation and Mindfulness techniques',
+        'Stress management and relaxation',
+        'Physical flexibility and strength building',
+        'Mental peace and emotional balance',
+        'Polarity Therapy and Healing Therapies',
+        'Holistic health and well-being promotion'
+      ],
     },
     {
       icon: '🎯',
       title: 'I-Sense Development',
-      desc: 'Innovative sensory training program to enhance cognitive abilities and concentration power.',
-      features: ['Sensory enhancement', 'Concentration improvement', 'Memory development', 'Cognitive skill building', 'Brain development activities'],
+      desc: 'Brain Wave Entrainment Pedagogy for developing brain skills, memory enhancement, and intuitive level improvement.',
+      features: [
+        'Improves Listening and Observation skills',
+        'Improves Concentration and Memory',
+        'Improves Reading and Learning Skills', 
+        'Enhances Visualization and Vivid Imagination',
+        'Improves Intuition Levels',
+        'Boosts Creativity and Self-Confidence',
+        'Develops Analytical and Logical Thinking',
+        '2 levels with 9 sessions per level (2nd to 12th Grade)'
+      ],
+    },
+    {
+      icon: '🧩',
+      title: 'Rubik\'s Cube Course',
+      desc: 'Master the world\'s most popular puzzle cube to enhance problem-solving skills, memory, and logical thinking abilities.',
+      features: [
+        'Step-by-step solving techniques',
+        'Pattern recognition and algorithms',
+        'Improved Problem-solving abilities',
+        'Enhanced Memory and Concentration',
+        'Logical and Analytical thinking development',
+        'Patience and Persistence building',
+        'Speed cubing techniques',
+        'Competition preparation and strategies'
+      ],
+    },
+    {
+      icon: '🎓',
+      title: 'Vidya Vardhan',
+      desc: 'Comprehensive 2-day training program for educators to enhance teaching skills, methodologies and classroom management.',
+      features: [
+        'Upgrade Teaching Skills with modern techniques',
+        'Enhance Classroom Management abilities',
+        'Foster Inclusive Education strategies',
+        'Integrate Technology in teaching practices',
+        'Promote Collaborative Learning approaches',
+        'Interactive Sessions and hands-on activities',
+        'Personalised Feedback from facilitators',
+        '2 levels with 10 sessions over 5 months'
+      ],
+    },
+    {
+      icon: '📚',
+      title: 'Swadhyaya Course',
+      desc: 'Comprehensive Personal Development Workshop for self-management, emotional regulation, and memory enhancement techniques.',
+      features: [
+        'Self-Management and Time Management',
+        'Guruvandana (Teacher\'s Reverence)',
+        'Stress Detoxification techniques',
+        'Emotion Regulation (Fear and Anger management)',
+        'Science of Memory with Enhancement Techniques',
+        'Improved Self-Discipline development',
+        'Better Emotional Regulation skills',
+        '8 sessions over 8 months (6th to 10th Grade)'
+      ],
+    },
+    {
+      icon: '🎨',
+      title: 'Origami Course (Japanese Paper Folding)',
+      desc: 'Learn the traditional Japanese art of paper folding to develop creativity, patience, and fine motor coordination skills.',
+      features: [
+        'Traditional Japanese paper folding techniques',
+        'Improved Fine Motor Skills development',
+        'Enhanced Spatial intelligence',
+        'Creativity and Artistic expression',
+        'Patience and Focus development',
+        'Mathematical concepts through folding',
+        'Cultural appreciation and learning',
+        'Therapeutic and stress-relieving activity'
+      ],
     }
+
+
+
   ];
 
   return (
@@ -56,7 +196,7 @@ function Courses() {
                 <ul className="course-features">
                   {course.features.map((f, i) => <li key={i}>{f}</li>)}
                 </ul>
-                <a href="#trial" className="btn btn-primary">Start Learning</a>
+                {/* <a href="#trial" className="btn btn-primary">Start Learning</a> */}
               </div>
             </div>
           ))}
@@ -67,3 +207,4 @@ function Courses() {
 }
 
 export default Courses;
+
