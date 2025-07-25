@@ -50,7 +50,7 @@ function Contact() {
               <div className="form-group">
                 <label htmlFor="course">Course Interest</label>
                 <select id="course" style={{ width: '100%', padding: '0.75rem', border: 'none', borderRadius: '5px', background: 'rgba(255,255,255,0.9)', color: '#333' }}>
-                  <option>Abacus Mental Arithmetic</option>
+                  <option>Abacus Arithmetic</option>
                   <option>Vedic Mathematics</option>
                   <option>Bhagavad Gita Lessons</option>
                   <option>Yoga & Meditation</option>

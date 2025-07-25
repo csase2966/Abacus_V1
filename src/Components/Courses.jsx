@@ -1,6 +1,15 @@
 // src/components/Courses.jsx
 import useAnimated from '../hooks/useAnimated';
-
+import bhagvad from '../images/bhagvad-gita.jpg';
+import vedic from '../images/vedic.png';
+import yoga from '../images/yoga.jpg';
+import first from '../images/first.png';
+import lsense from '../images/Isense.jpeg';
+import abacus from '../images/abacus.jpg';
+import rubik from '../images/rubik.webp';
+import OIP from '../images/OIP.webp';
+import pd from '../images/pd.jpg';
+import pd1 from '../images/pd1.webp';
 
 function Courses() {
     useAnimated('.course-card');
@@ -39,7 +48,7 @@ function Courses() {
 
 
      {
-      icon: '📖',
+      icon:  bhagvad,
       title: 'Lessons of Bhagavad Gita',
       desc: 'Timeless wisdom from the Bhagavad Gita presented in an engaging, child-friendly format for moral and character development.',
       features: [
@@ -51,10 +60,11 @@ function Courses() {
         'Cultural heritage preservation',
         'Wisdom-based learning approach',
         'Holistic personality development'
-      ],
+      ],       
     },
     {
-      icon: '🧠',
+      // icon: '🧠',
+      icon: vedic,
       title: 'Vedic Mathematics',
       desc: 'Ancient Indian mathematical techniques with personality development for fast arithmetic and competitive exam preparation.',
       features: [
@@ -69,7 +79,8 @@ function Courses() {
       ],
     },
     {
-      icon: '🧮',
+      // icon: '🧮',
+      icon: abacus,
       title: 'Abacus',
       desc: 'Century-old tool for whole brain and cognitive skills development to improve mental calculations and mathematical abilities.',
       features: [
@@ -84,7 +95,8 @@ function Courses() {
       ],
     },
     {
-      icon: '🧘',
+      // icon: '🧘',
+            icon: yoga,
       title: 'Yoga & Meditation',
       desc: 'Physical and mental wellness through traditional yoga practices, meditation techniques, and holistic healing therapies.',
       features: [
@@ -99,7 +111,8 @@ function Courses() {
       ],
     },
     {
-      icon: '🎯',
+      // icon: '🎯',
+      icon: lsense,
       title: 'I-Sense Development',
       desc: 'Brain Wave Entrainment Pedagogy for developing brain skills, memory enhancement, and intuitive level improvement.',
       features: [
@@ -114,7 +127,8 @@ function Courses() {
       ],
     },
     {
-      icon: '🧩',
+      // icon: '🧩',
+      icon: rubik,
       title: 'Rubik\'s Cube Course',
       desc: 'Master the world\'s most popular puzzle cube to enhance problem-solving skills, memory, and logical thinking abilities.',
       features: [
@@ -129,7 +143,8 @@ function Courses() {
       ],
     },
     {
-      icon: '🎓',
+      // icon: '🎓',
+      icon: pd,
       title: 'Vidya Vardhan',
       desc: 'Comprehensive 2-day training program for educators to enhance teaching skills, methodologies and classroom management.',
       features: [
@@ -144,7 +159,8 @@ function Courses() {
       ],
     },
     {
-      icon: '📚',
+      // icon: '📚',
+      icon: pd1,
       title: 'Swadhyaya Course',
       desc: 'Comprehensive Personal Development Workshop for self-management, emotional regulation, and memory enhancement techniques.',
       features: [
@@ -159,7 +175,8 @@ function Courses() {
       ],
     },
     {
-      icon: '🎨',
+      // icon: '🎨',
+           icon: OIP,
       title: 'Origami Course (Japanese Paper Folding)',
       desc: 'Learn the traditional Japanese art of paper folding to develop creativity, patience, and fine motor coordination skills.',
       features: [
@@ -189,7 +206,11 @@ function Courses() {
         <div className="courses-grid">
           {courses.map((course, idx) => (
             <div className="course-card" key={idx}>
-              <div className="course-image">{course.icon}</div>
+              <div className="course-image">
+                <img src={course.icon} alt={course.title} 
+                style={{width: '100%', height: '100%', objectFit: 'contain'}} 
+                />
+              </div>
               <div className="course-content">
                 <h3>{course.title}</h3>
                 <p>{course.desc}</p>
@@ -208,3 +229,16 @@ function Courses() {
 
 export default Courses;
 
+      
+     
+     
+    
+
+      
+    
+   
+   
+    
+   
+  
+  

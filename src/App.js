@@ -22,7 +22,7 @@ function App() {
       
 
       <a
-  href="https://wa.me/917447721586?text=Hi%20I'm%20interested%20in%20your%20courses!"//9242912480
+  href="https://wa.me/919242912480?text=Hi%20I'm%20interested%20in%20your%20courses!"//9242912480
   className="whatsapp-float"
   target="_blank"
   rel="noopener noreferrer"
@@ -44,3 +44,4 @@ function App() {
 }
 
 export default App;
+

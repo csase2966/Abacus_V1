@@ -293,7 +293,7 @@ body {
 
 .course-image {
   height: 200px;
-  background: linear-gradient(45deg, #667eea, #764ba2);
+  background: linear-gradient(45deg, #f3f3f5, #cec8d4);
   display: flex;
   align-items: center;
   justify-content: center;

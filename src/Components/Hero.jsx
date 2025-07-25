@@ -9,7 +9,7 @@ function Hero() {
           Bhagavad Gita Lessons, Yoga, Meditation, and I-Sense Development
         </p>
         <div className="hero-buttons">
-          <a href="#trial" className="btn btn-primary">Start Free Trial</a>
+          {/* <a href="#trial" className="btn btn-primary">Start Free Trial</a> */}
           <a href="#courses" className="btn btn-secondary">Explore Courses</a>
         </div>
         <div className="hero-image">
