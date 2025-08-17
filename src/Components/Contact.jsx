@@ -22,12 +22,12 @@ function Contact() {
             <p>Ready to begin your child's transformative learning journey? Contact us today for more information or to schedule a free trial class.</p>
             <ul className="contact-details">
               <li><strong>Address:</strong> Bachupally, Mallampet Road, Hyderabad - 500090</li>
-              <li><strong>Phone:</strong> +91-XXXX-XXXXXX</li>
+{/*               <li><strong>Phone:</strong> +91-XXXX-XXXXXX</li> */}
               <li><strong>Email:</strong> sn.brightfuture@gmail.com</li>
               
             </ul>
             <div style={{ marginTop: '2rem' }}>
-              <a href="#trial" className="btn btn-primary">Book Free Trial Class</a>
+{/*               <a href="#trial" className="btn btn-primary">Book Free Trial Class</a> */}
               {/* <a href="#franchise" className="btn btn-secondary" style={{ marginLeft: '1rem' }}>Apply for Franchise</a> */}
             </div>
           </div>
