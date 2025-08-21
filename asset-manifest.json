@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/Abacus_V1/static/css/main.5f247b93.css",
-    "main.js": "/Abacus_V1/static/js/main.5d69cf13.js",
-    "static/js/453.2e6d3f39.chunk.js": "/Abacus_V1/static/js/453.2e6d3f39.chunk.js",
-    "static/media/first.png": "/Abacus_V1/static/media/first.b48a41900fb3f524104a.png",
-    "static/media/pd.jpg": "/Abacus_V1/static/media/pd.03d1ece4e364794a2b46.jpg",
-    "static/media/Isense.jpeg": "/Abacus_V1/static/media/Isense.d6ad3a4918d9bc1a964a.jpeg",
-    "static/media/rubik.webp": "/Abacus_V1/static/media/rubik.4768870a1ce43226ae63.webp",
-    "static/media/bhagvad-gita.jpg": "/Abacus_V1/static/media/bhagvad-gita.ae3e1aef07fe1d2bd367.jpg",
-    "static/media/abacus.jpg": "/Abacus_V1/static/media/abacus.d4af6ee687a3b60b0fbb.jpg",
-    "static/media/OIP.webp": "/Abacus_V1/static/media/OIP.4ae446e11871ee561d16.webp",
-    "static/media/vedic.png": "/Abacus_V1/static/media/vedic.214290392aa02a6a910a.png",
-    "static/media/pd1.webp": "/Abacus_V1/static/media/pd1.1dcdf5d483e22a2cee54.webp",
-    "index.html": "/Abacus_V1/index.html",
-    "main.5f247b93.css.map": "/Abacus_V1/static/css/main.5f247b93.css.map",
-    "main.5d69cf13.js.map": "/Abacus_V1/static/js/main.5d69cf13.js.map",
-    "453.2e6d3f39.chunk.js.map": "/Abacus_V1/static/js/453.2e6d3f39.chunk.js.map"
+    "main.css": "./static/css/main.5f247b93.css",
+    "main.js": "./static/js/main.035409ee.js",
+    "static/js/453.2e6d3f39.chunk.js": "./static/js/453.2e6d3f39.chunk.js",
+    "static/media/first.png": "./static/media/first.b48a41900fb3f524104a.png",
+    "static/media/pd.jpg": "./static/media/pd.03d1ece4e364794a2b46.jpg",
+    "static/media/Isense.jpeg": "./static/media/Isense.d6ad3a4918d9bc1a964a.jpeg",
+    "static/media/rubik.webp": "./static/media/rubik.4768870a1ce43226ae63.webp",
+    "static/media/bhagvad-gita.jpg": "./static/media/bhagvad-gita.ae3e1aef07fe1d2bd367.jpg",
+    "static/media/abacus.jpg": "./static/media/abacus.d4af6ee687a3b60b0fbb.jpg",
+    "static/media/OIP.webp": "./static/media/OIP.4ae446e11871ee561d16.webp",
+    "static/media/vedic.png": "./static/media/vedic.214290392aa02a6a910a.png",
+    "static/media/pd1.webp": "./static/media/pd1.1dcdf5d483e22a2cee54.webp",
+    "index.html": "./index.html",
+    "main.5f247b93.css.map": "./static/css/main.5f247b93.css.map",
+    "main.035409ee.js.map": "./static/js/main.035409ee.js.map",
+    "453.2e6d3f39.chunk.js.map": "./static/js/453.2e6d3f39.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5f247b93.css",
-    "static/js/main.5d69cf13.js"
+    "static/js/main.035409ee.js"
   ]
 }
