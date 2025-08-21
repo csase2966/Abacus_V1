@@ -32,7 +32,7 @@ function Contact() {
             </div>
           </div>
 
-          <div className="contact-form">
+          {/* <div className="contact-form">
             <h3>Send us a Message</h3>
             <form>
               <div className="form-group">
@@ -64,7 +64,7 @@ function Contact() {
               </div>
               <button type="submit" className="btn btn-primary" style={{ width: '100%' }}>Send Message</button>
             </form>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
